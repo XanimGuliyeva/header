@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding:20px 0px 20px 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 1090;
+}
+.header-left{
+    width: 25%;
+    float: left;
+    padding-left: 40px;
+    color:white;
+}
+.header-left  h3{
+    cursor: pointer;
+}
+.header-right{
+    width: 70;
+    float: right;
+    padding-right: 40px;
+}
+.header-right ul{
+    list-style: none;
+    float: right;
+}
+.header-right ul li{
+    float: left;
+    padding: 0px 10px;
+    color:white;
+    cursor: pointer;
+}
+.photo{
+    padding: 15rem 0rem;
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-creative/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    text-align: center;
+}
+.photo h1{
+    opacity: 1;
+    margin-bottom: 20px;
+    color: white; 
+    font-weight: bold;
+    font-size: 50px;
+}
+.photo p{
+    opacity: 1;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px; 
+}
+.hr {
+    margin: 0px 640px;
+    border-color: tomato;
+    border-width: 1.5px;
+}
+.photo button{
+    margin-top: 20px;
+    padding:20px 50px;
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+.start{
+    padding: 8rem 0rem;
+    background-color: tomato;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.start h1{
+    margin-bottom:20px;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.start p{
+    text-align: center;
+    margin:20px 0px;
+    color: white;
+    font-size: 20px; 
+    opacity: 0.6;
+}
+.start .hr2 {
+    margin: 20px 640px;
+    border-color:white;
+    border-width: 1.5px;
+}
+.start button{
+    margin-top: 20px;
+    padding:20px 50px;
+    background-color:white;
+    color:black;
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+#icon{
+    background-color: white;
+    background-position: center;
+    background-size:cover;
+    padding:4rem 0rem 8rem 0rem;
+}
+#icon .icon-text{
+    text-align: center;
+    font-size: 32px;
+}
+.hr3{
+    margin: 10px 640px;
+    border-color:tomato;
+    border-width: 1.5px;
+}
+.icons{
+    margin: auto;
+    width:80%;
+}
+.icons .boxs{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin: 50px 0px;
+}
+.icons .boxs i{
+    padding: 40px;
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ana{
+width: 100%;
+margin: auto;
+}
+.ana .bala{
+    float: left;
+    width: 33%;
+    position: relative;
+}
+.bala img{
+    width: 100%;  
+}
+.bala .bala2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    opacity: 0;
+}
+.bala:hover .bala2{
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:tomato;
+    opacity: 0;
+}
+.bala:hover .overlay{
+    opacity:0.8;
+    transition: .4s;
+}
+.dowland{
+    background-color: #343a40;
+    background-position: center;
+    background-size: cover;
+    padding: 6rem;
+    margin-top: 650px;
+    text-align: center;
+}
+.dowland h1{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.dowland button{
+    padding: 20px 36px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.connection{
+    padding: 10rem 0rem;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+.connection .connection-text h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 8px;
+}
+.connection-text hr{
+    width: 3.25rem;
+    border-width: .2rem;
+    border-color: #f4623a;
+    margin: auto;
+}
+.connection-text p{
+    margin: 8px 300px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #6c7574;
+}
+.connection-place{
+    margin: auto;
+    width: 80%;
+}
+.connection-place .connect{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.connect i{
+    font-size: 50px;
+    color: gray;
+    margin: 20px;
+    cursor: pointer;
+}
+.connect p{
+    color: tomato;
+    font-size: 16px;
+    cursor: pointer;
+}
+.end{
+    background-color: #f8f9fA;
+    background-position: center;
+    background-size: cover;
+    padding: 50px; 0px
+}
+.end p{
+    text-align: center;
+    color: gray;
+}
